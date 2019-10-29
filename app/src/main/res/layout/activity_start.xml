@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".startActivity">
+
+        <ImageView
+            android:id="@+id/splash"
+            android:layout_width="match_parent"
+            android:layout_height="581dp"
+            android:cropToPadding="false"
+            android:scaleType="centerCrop"
+            android:src="@drawable/starticon" />
+
+
+    <TextView
+        android:id="@+id/Convx"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFCFC"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:paddingTop="30dp"
+        android:text="CONV-X BOT"
+
+        android:textAppearance="@style/TextAppearance.AppCompat.Display3"
+        android:textColor="#0F0F0F"
+        tools:layout_editor_absoluteX="176dp"
+        tools:layout_editor_absoluteY="637dp" />
+</LinearLayout>

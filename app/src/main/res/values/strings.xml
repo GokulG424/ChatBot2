@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Conv-x Bot</string>
+
+    <string name="menu_prompt">Choose a context</string>
+
+    <string-array name="menu_arrays">
+        <item>Regular Bot</item>
+        <item>Interview</item>
+    </string-array>
+</resources>
